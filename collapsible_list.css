@@ -1,0 +1,12 @@
+ol ol{
+    display: none
+}
+
+li:hover{
+    color: blue;
+    font-size: 50px;
+}
+
+li:hover > ol{
+    display: block
+}
